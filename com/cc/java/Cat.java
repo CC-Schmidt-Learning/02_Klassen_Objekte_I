@@ -1,9 +1,10 @@
 package com.cc.java;
 
 public class Cat {
-public static void main (String[] args){
-   
-
+ public void tellYourAdress ()
+ {
+  System.out.println("Blick von innen: " + this);
 }
+
 
 }
