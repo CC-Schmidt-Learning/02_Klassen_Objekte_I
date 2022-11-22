@@ -3,7 +3,7 @@ package com.cc.java;
 public class App {
     
     public static void main(String[] args) {
-        output(2);
+        new Cat();
     }
 
     public static void output(int i) {
