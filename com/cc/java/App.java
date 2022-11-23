@@ -16,25 +16,23 @@ output(cat.tellYourName());
 output(cat.tellYourfurColor());
 output(String.valueOf(cat.tellYourAge()));
 
-App.output(String.valueOf(2));
 
  output("______________________");
 
+Cat cat1 = new Cat();
+cat1.name="Alonzo";
+cat1.furColor="grey";
+cat1.age=35;
 
-        Cat cat1=new Cat();
-        output("Ich bin eine " + cat1);
-        cat1.tellYourAdress();
+output(cat1.tellYourName());
+output(cat1.tellYourfurColor());
+output(String.valueOf(cat1.tellYourAge()));
     }
 
 
 
     public static void output(String name) {
         System.out.println(name);
-    }
-
-
-    public static void tellyouradress() {
-       System.out.println("Hello"); 
     }
 
 }
