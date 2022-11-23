@@ -4,10 +4,17 @@ public class App {
     
     public static void main(String[] args) {
         Cat cat=new Cat();
-        output("Ich bin eine " + cat);
-cat.tellYourAdress();
+cat.name="Grisabella";
+cat.furColor="white";
+cat.age=29;
 
-tellyouradress();
+// output(cat.name);
+// output(cat.furColor);
+// output(String.valueOf(cat.age));
+
+output(cat.tellYourName());
+output(cat.tellYourfurColor());
+output(String.valueOf(cat.tellYourAge()));
 
 App.output(String.valueOf(2));
 
@@ -19,10 +26,10 @@ App.output(String.valueOf(2));
         cat1.tellYourAdress();
     }
 
-   
 
-    public static void output(String outputStr) {
-        System.out.println(outputStr);
+
+    public static void output(String name) {
+        System.out.println(name);
     }
 
 
